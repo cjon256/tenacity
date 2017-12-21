@@ -110,8 +110,7 @@ services and other remote endpoints.
         print "Wait 2^x * 1 second between each retry, up to 10 seconds, then 10 seconds afterwards"
 
 
-Then again, it's hard to beat exponential backoff when retrying distributed
-services and other remote endpoints.
+Sometimes it is easier to reason about injecting randomness using a base amount plus a random range.
 
 .. code-block:: python
 
